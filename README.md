@@ -3,7 +3,7 @@
 This is a research and practice on the Google Map API
 
 JS
-###//OPTION 1
+###OPTION 1
 <script>
 var map;
 function initMap(){
@@ -14,7 +14,7 @@ function initMap(){
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   
-  //execution
+  ####execution
   google.maps.event.addDomListener('window', load, initMap);
 }
 </script>
